@@ -4,7 +4,7 @@ Gem::Specification.new do |s|
   s.name = %q{rails-tagged-syslog}
   s.version = Abril::TaggedLogging::VERSION
   s.authors = ["Giuliano Melo"]
-  s.license = "MIT"
+  s.license = "GPLv2"
   s.email = %q{giuliano.melo@abril.com.br}
   s.homepage = %q{http://github.com/abril/rails-tagged-syslog}
   s.rdoc_options = ["--charset=UTF-8"]
