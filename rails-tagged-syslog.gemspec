@@ -2,7 +2,7 @@ require File.expand_path('../lib/logger/version', __FILE__)
 
 Gem::Specification.new do |s|
   s.name = %q{rails-tagged-syslog}
-  s.version = Abril::TaggedLogging::VERSION
+  s.version = Abril::TaggedSyslog::VERSION
   s.authors = ["Giuliano Melo"]
   s.license = "GPLv2"
   s.email = %q{giuliano.melo@abril.com.br}
