@@ -10,8 +10,8 @@ Gem::Specification.new do |s|
   s.rdoc_options = ["--charset=UTF-8"]
   s.summary = %q{A simple wrapper to use Rails Tagged Logging with Syslog}
 
-  s.files = `git ls-files`.split('\n')
-  # s.files = `git ls-files README.md CHANGELOG.md MIT-LICENSE ext lib support`.split
+  # s.files = `git ls-files`.split('\n')
+  s.files = `git ls-files README.md CHANGELOG.md LICENSE lib`.split
 
   s.add_dependency 'syslog-logger'
 end
