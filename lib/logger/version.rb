@@ -1,5 +1,5 @@
 module Abril
-  module TaggedLogging
+  module TaggedSyslog
     VERSION = "0.0.1"
   end
 end

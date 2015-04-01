@@ -1,7 +1,7 @@
 require 'logger/syslogger'
 
 module Abril
-  module TaggedLogging
+  module TaggedSyslog
     include ActiveSupport::TaggedLogging
 
     def self.new(logger = nil)
