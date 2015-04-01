@@ -1,2 +1,2 @@
 require 'syslog-logger'
-require 'logger/tagged_logging'
+require 'logger/tagged_syslog'
