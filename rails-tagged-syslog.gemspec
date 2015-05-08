@@ -12,5 +12,5 @@ Gem::Specification.new do |s|
 
   s.files = `git ls-files README.md CHANGELOG.md LICENSE lib`.split
 
-  s.add_runtime_dependency 'syslog-logger', '~> 0'
+  s.add_runtime_dependency 'syslog-logger', '~> 1.6.8'
 end
